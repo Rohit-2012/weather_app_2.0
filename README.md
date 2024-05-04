@@ -37,7 +37,9 @@ To get a local copy up and running, follow these steps:
 
 1. Clone the repository
 2. Install dependencies using `npm install`
-3. Run the development server using `npm run dev`
+3. Register on https://www.visualcrossing.com and https://geocode.maps.co to get API key for weather data and geocoding
+4. Create .env file in the root directory and add weather API key as VITE_API_KEY and geocoding API key as VITE_GEOCODING_API_KEY
+5. Run the development server using `npm run dev`
 
 ## Usage
 
